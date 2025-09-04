@@ -1,0 +1,849 @@
+fileFormatVersion: 2
+guid: 1ac6b2ae90da4a042bb0dfad53298a45
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T_Tears_White
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7ed56b8c3898e4dbb0f969e4f7b938
+      internalID: -1625905615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559d502edbc00d045a28114ac74ff82f
+      internalID: 868721145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_Red
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1c58639f27c8c48ab3eb580d97dcdc
+      internalID: 2114798254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7e0af01340d8646bfd9912fae83d4a
+      internalID: 983172068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6615d2e83ca38e045bf5f4914d967fcc
+      internalID: -1863823912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_3
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ae4581767f62e45bf8af8449c40506
+      internalID: 1427401656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_4
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369fb6ae05719214294b3212af958739
+      internalID: 1283537375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_5
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b0f2e2a8d924040b9e1454753876db
+      internalID: -546986254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dab510dcbe1bfb43bfd071f050514d1
+      internalID: -629927277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 129
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce846103486b5f43886e6133455f52e
+      internalID: -932458328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bb1b4a51631564c88e542468cff6d7
+      internalID: -1920375390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee087cd6aa8dc9d4d9be9d8327c2a9de
+      internalID: -43385553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b36dba80e492e14a9fb8d587c65eddc
+      internalID: 1501775339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 65
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5152bcaf0a5c3214ea1e371f97f1bd36
+      internalID: 1062885838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa713e194cd823540947fe914b1b33bc
+      internalID: -279890414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fc9ada0e0f4b348b2e0cbdb767c693
+      internalID: -514027130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_14
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55675e9747cdfc5448e1fe079ac51e24
+      internalID: -493627896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T_Tears_White_End_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09872b9f94c722145a9513c773e870ee
+      internalID: 1268063959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      T_Tears_100: -1450961478
+      T_Tears_101: -2140294519
+      T_Tears_102: -1910440937
+      T_Tears_103: -608321955
+      T_Tears_104: -357278543
+      T_Tears_105: 413244817
+      T_Tears_106: -772668905
+      T_Tears_107: 716689249
+      T_Tears_108: 1431892418
+      T_Tears_109: -852806175
+      T_Tears_110: -1736851862
+      T_Tears_111: 1275533372
+      T_Tears_112: 680260854
+      T_Tears_113: 1161193750
+      T_Tears_114: 1664435228
+      T_Tears_115: -1654733245
+      T_Tears_116: 1380361256
+      T_Tears_117: -1304191467
+      T_Tears_118: -1922554624
+      T_Tears_119: 412715596
+      T_Tears_120: 348758502
+      T_Tears_121: 1803801280
+      T_Tears_122: -1203957194
+      T_Tears_123: 1087733735
+      T_Tears_124: 1120373535
+      T_Tears_125: 523291887
+      T_Tears_126: 1702177825
+      T_Tears_127: -2143983534
+      T_Tears_128: -902074249
+      T_Tears_129: 1687553138
+      T_Tears_130: -834428292
+      T_Tears_131: 822705431
+      T_Tears_132: 1107644368
+      T_Tears_133: -1028373502
+      T_Tears_134: 1689924379
+      T_Tears_135: 1219522889
+      T_Tears_136: -796192701
+      T_Tears_137: -1064303591
+      T_Tears_138: -1610692315
+      T_Tears_139: -653610550
+      T_Tears_140: -676348162
+      T_Tears_141: 773315092
+      T_Tears_142: 807903106
+      T_Tears_143: -4553654
+      T_Tears_144: 695790113
+      T_Tears_145: 1751741888
+      T_Tears_146: -1717631652
+      T_Tears_147: -568864891
+      T_Tears_148: -824835586
+      T_Tears_149: 2124574312
+      T_Tears_15: 257033200
+      T_Tears_150: -1407934348
+      T_Tears_151: -1388511688
+      T_Tears_152: -301827097
+      T_Tears_153: 2016602754
+      T_Tears_154: -1782545685
+      T_Tears_155: 1374563255
+      T_Tears_156: 84763098
+      T_Tears_157: -1852339167
+      T_Tears_158: 471179456
+      T_Tears_159: -751451789
+      T_Tears_16: -299986499
+      T_Tears_160: 378776725
+      T_Tears_161: 1070086978
+      T_Tears_162: 616914593
+      T_Tears_163: 761500784
+      T_Tears_164: -1171362138
+      T_Tears_165: 679397314
+      T_Tears_166: 1288811843
+      T_Tears_167: 1946258206
+      T_Tears_168: 893672938
+      T_Tears_169: -1478565955
+      T_Tears_17: 436210019
+      T_Tears_170: 1786213412
+      T_Tears_171: -1685911075
+      T_Tears_172: -271897933
+      T_Tears_173: -1769071167
+      T_Tears_174: 1749052888
+      T_Tears_175: -1454277586
+      T_Tears_176: 489166556
+      T_Tears_177: -1780430295
+      T_Tears_178: -297450701
+      T_Tears_179: 1273883223
+      T_Tears_18: -2105730041
+      T_Tears_180: -499265969
+      T_Tears_181: -1309765692
+      T_Tears_182: -741763176
+      T_Tears_183: 1150787756
+      T_Tears_184: 1506709342
+      T_Tears_185: 1359529777
+      T_Tears_186: -1347668582
+      T_Tears_187: 1724673670
+      T_Tears_188: -1065291434
+      T_Tears_189: 1583002776
+      T_Tears_19: 1470422596
+      T_Tears_190: -1749507242
+      T_Tears_191: -1516816575
+      T_Tears_192: 393356290
+      T_Tears_193: 1523055349
+      T_Tears_194: -625570261
+      T_Tears_195: -919080047
+      T_Tears_196: -1231841927
+      T_Tears_197: -387136387
+      T_Tears_198: 1227721490
+      T_Tears_199: 245764554
+      T_Tears_20: 1808056122
+      T_Tears_200: 1408925897
+      T_Tears_201: -1932998525
+      T_Tears_202: 1690611290
+      T_Tears_203: 1431106924
+      T_Tears_204: -140137948
+      T_Tears_205: -1639547097
+      T_Tears_206: 1371960536
+      T_Tears_207: 1323267354
+      T_Tears_208: -70815223
+      T_Tears_209: 1771904332
+      T_Tears_21: 1769481027
+      T_Tears_210: -1398686886
+      T_Tears_212: 109973404
+      T_Tears_213: 197291247
+      T_Tears_214: -316298114
+      T_Tears_215: 55119989
+      T_Tears_216: 1225330482
+      T_Tears_217: 488994825
+      T_Tears_218: -812912441
+      T_Tears_219: 11496843
+      T_Tears_22: 1947039303
+      T_Tears_220: -1863651648
+      T_Tears_221: -1133209698
+      T_Tears_222: 151004327
+      T_Tears_223: 209521931
+      T_Tears_224: 1359128134
+      T_Tears_225: 2041076796
+      T_Tears_226: -1149442511
+      T_Tears_227: -413545741
+      T_Tears_228: 630951103
+      T_Tears_229: -698035090
+      T_Tears_23: -806411074
+      T_Tears_230: 2023943334
+      T_Tears_231: 1622004149
+      T_Tears_232: -1900708676
+      T_Tears_233: 1593181014
+      T_Tears_234: -836428457
+      T_Tears_235: 707299161
+      T_Tears_236: 794879794
+      T_Tears_237: 170766843
+      T_Tears_238: 1201563248
+      T_Tears_239: 832384727
+      T_Tears_24: -545982082
+      T_Tears_240: -627655019
+      T_Tears_241: -1402122782
+      T_Tears_242: -1797542490
+      T_Tears_243: 926527277
+      T_Tears_244: -914549046
+      T_Tears_245: -1281087149
+      T_Tears_246: -171695590
+      T_Tears_247: -56829898
+      T_Tears_248: 1008097780
+      T_Tears_249: 664063887
+      T_Tears_25: 2047249614
+      T_Tears_250: -2139265464
+      T_Tears_251: 545624139
+      T_Tears_252: 560052622
+      T_Tears_253: -1133592312
+      T_Tears_254: 30079147
+      T_Tears_255: 722368741
+      T_Tears_256: 2093318049
+      T_Tears_257: -852719100
+      T_Tears_258: -597190851
+      T_Tears_259: 2103498339
+      T_Tears_26: 1861901215
+      T_Tears_260: -497517078
+      T_Tears_261: -697061278
+      T_Tears_262: -638390705
+      T_Tears_263: -1129954816
+      T_Tears_264: 609554830
+      T_Tears_265: -1326200838
+      T_Tears_266: -2007517410
+      T_Tears_267: 1975461659
+      T_Tears_268: 770992118
+      T_Tears_269: 1528212326
+      T_Tears_27: -1602025626
+      T_Tears_270: -1781748130
+      T_Tears_271: 2002798007
+      T_Tears_272: -1643515275
+      T_Tears_273: 1629461215
+      T_Tears_274: -1222237551
+      T_Tears_275: -1723077755
+      T_Tears_276: 1539854713
+      T_Tears_277: 1870383453
+      T_Tears_278: 1873205335
+      T_Tears_279: -397062950
+      T_Tears_28: -789670683
+      T_Tears_280: -191965277
+      T_Tears_281: -1876390147
+      T_Tears_282: 854810461
+      T_Tears_283: -1834917848
+      T_Tears_284: 136536636
+      T_Tears_285: 280166239
+      T_Tears_286: 520373948
+      T_Tears_287: -993555544
+      T_Tears_288: 927041628
+      T_Tears_289: -684499524
+      T_Tears_290: -1403063602
+      T_Tears_291: 1978918264
+      T_Tears_292: 2104627303
+      T_Tears_293: 402295345
+      T_Tears_294: 1147778377
+      T_Tears_295: 2001139035
+      T_Tears_296: -2067873915
+      T_Tears_297: -1657152510
+      T_Tears_298: -1926911109
+      T_Tears_299: 29534303
+      T_Tears_300: -774277250
+      T_Tears_301: -1956656595
+      T_Tears_302: -1651182086
+      T_Tears_303: 301169826
+      T_Tears_304: -1014622758
+      T_Tears_305: -1932077309
+      T_Tears_306: -1105202861
+      T_Tears_307: 835010927
+      T_Tears_308: -709070281
+      T_Tears_309: -171117724
+      T_Tears_310: -1259301578
+      T_Tears_311: -521913279
+      T_Tears_312: -261054032
+      T_Tears_313: -1759800632
+      T_Tears_314: -913775594
+      T_Tears_315: -1368814629
+      T_Tears_316: 1191695647
+      T_Tears_317: -1164354982
+      T_Tears_318: 456935053
+      T_Tears_319: -1810941944
+      T_Tears_320: -1200497634
+      T_Tears_321: 1438800956
+      T_Tears_322: 512455902
+      T_Tears_323: 442128030
+      T_Tears_324: 220200183
+      T_Tears_325: -923918035
+      T_Tears_326: -1132595964
+      T_Tears_327: 349384590
+      T_Tears_328: 649864561
+      T_Tears_329: -2043906743
+      T_Tears_330: -111094875
+      T_Tears_331: 1609563791
+      T_Tears_332: -544563824
+      T_Tears_333: 2041745501
+      T_Tears_334: -724962296
+      T_Tears_34: -1899605526
+      T_Tears_35: -96430051
+      T_Tears_36: -1997445753
+      T_Tears_37: -1860009251
+      T_Tears_38: -1934999242
+      T_Tears_39: 158802476
+      T_Tears_40: 115063163
+      T_Tears_41: -472565737
+      T_Tears_42: -1382504973
+      T_Tears_43: -531067313
+      T_Tears_44: 919750518
+      T_Tears_45: -685448414
+      T_Tears_46: -1519215828
+      T_Tears_47: 294732142
+      T_Tears_48: 1745511290
+      T_Tears_49: -1531586461
+      T_Tears_50: -454992707
+      T_Tears_51: 521532714
+      T_Tears_52: -148517463
+      T_Tears_53: -416904830
+      T_Tears_54: -410598828
+      T_Tears_55: 834825134
+      T_Tears_56: -429551420
+      T_Tears_57: -1425248121
+      T_Tears_58: -1932741032
+      T_Tears_59: -545187865
+      T_Tears_60: -196804744
+      T_Tears_61: 1847622566
+      T_Tears_62: -840823124
+      T_Tears_63: -1443628591
+      T_Tears_64: 1700693051
+      T_Tears_65: -216248191
+      T_Tears_66: 770215039
+      T_Tears_67: 1307671806
+      T_Tears_68: -2055974833
+      T_Tears_69: 921979099
+      T_Tears_70: 1190028147
+      T_Tears_71: -1882772115
+      T_Tears_72: -583303612
+      T_Tears_73: -888675656
+      T_Tears_74: -1792668301
+      T_Tears_75: -1569531287
+      T_Tears_76: 618891412
+      T_Tears_77: 1297468866
+      T_Tears_78: 497913393
+      T_Tears_79: 590446423
+      T_Tears_80: -1487883748
+      T_Tears_81: 291952645
+      T_Tears_82: -502523588
+      T_Tears_83: 1266579316
+      T_Tears_84: 688405947
+      T_Tears_85: 678034801
+      T_Tears_86: 699629369
+      T_Tears_87: 619233386
+      T_Tears_88: 1648607364
+      T_Tears_89: 845083194
+      T_Tears_90: 614369579
+      T_Tears_91: 604664593
+      T_Tears_92: 88397952
+      T_Tears_93: 2074994769
+      T_Tears_94: 924026132
+      T_Tears_95: -1836695823
+      T_Tears_96: -765770197
+      T_Tears_97: -2132366999
+      T_Tears_98: 1178406696
+      T_Tears_99: -1455658521
+      T_Tears_Red: 2114798254
+      T_Tears_White: -1625905615
+      T_Tears_White_0: -1756302622
+      T_Tears_White_1: -1821674929
+      T_Tears_White_10: -1875731530
+      T_Tears_White_11: 1784802846
+      T_Tears_White_12: -1223431760
+      T_Tears_White_2: -1923329118
+      T_Tears_White_3: 200458917
+      T_Tears_White_4: -197265080
+      T_Tears_White_5: 1617233241
+      T_Tears_White_6: -1987929764
+      T_Tears_White_7: 1907582980
+      T_Tears_White_9: 387672226
+      T_Tears_White_End_0: 868721145
+      T_Tears_White_End_1: 983172068
+      T_Tears_White_End_10: 1205633638
+      T_Tears_White_End_11: -1698383818
+      T_Tears_White_End_12: -782424979
+      T_Tears_White_End_13: 2112338131
+      T_Tears_White_End_14: -872327052
+      T_Tears_White_End_15: -425422171
+      T_Tears_White_End_2: -1863823912
+      T_Tears_White_End_3: 1427401656
+      T_Tears_White_End_4: 1283537375
+      T_Tears_White_End_5: -546986254
+      T_Tears_White_End_6: -629927277
+      T_Tears_White_End_7: -932458328
+      T_Tears_White_End_8: -1920375390
+      T_Tears_White_End_9: -43385553
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

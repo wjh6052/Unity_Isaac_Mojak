@@ -1,0 +1,877 @@
+fileFormatVersion: 2
+guid: 0202061295484bd4887a8d8381c41f3c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_D_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 345
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c18b6b8ebc14e45be33e62f56bd8dc
+      internalID: -1375227446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_D_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 344
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4793bd1eb4c80a641bc24bdc09367722
+      internalID: -1669588166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_R_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 345
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d520acb878aefff43b667c0ddc27874e
+      internalID: -1390063012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_R_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 344
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d0d1014878a694890b7b1379379e25
+      internalID: 661099265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_U_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 345
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e9fccb4f90e2d41b78b6052b4eeae7
+      internalID: 1555537288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_U_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 344
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce533ebb586761499173af1d32db99c
+      internalID: -514621494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_L_0
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 345
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e455595456a7a46be9f02080a07cd8
+      internalID: 1793304236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Head_L_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 344
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8119228c3f49fc49bc511d1e3899428
+      internalID: -1616227402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357d2da548dcc0e4e92a99686b06c306
+      internalID: 566364099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec6186abfe92bf42b7368ea9e93d538
+      internalID: 802023022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbe13f3f98e534ca01545fbb1fa7a0
+      internalID: -2125102218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 300
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f7bfc66ca7e345910b8b74cd165b4
+      internalID: 1174143237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 301
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94939f3f013d4de4b9e7399b8c6cc952
+      internalID: 1661858170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6f4967dc05df94092f84f3be466c09
+      internalID: 969393482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7f91f265dafa745852d6c00a06c6ec
+      internalID: 613012081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 302
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd70ca528d7e2ed478586ac24b4e42c1
+      internalID: -1078213802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 300
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d6bad3f2557714d819309b52beabb6
+      internalID: 702445388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_UD_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 301
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3c5fa5c17c0d04faf3a65559c446f3
+      internalID: 967729763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 259
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ecbdd0e2d3f54f926fa65845f0866
+      internalID: -1506902137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 259
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27dcf36b32373f047956e40f0f7319b7
+      internalID: -1042172630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 259
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17deb84ddeca3ee4a911f4e1d1bf8a38
+      internalID: -705789537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 259
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f131ecd23749ea45b2f77c07e36f641
+      internalID: -1084498099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 259
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e22c0e091c36bf43aafb915b4cf230a
+      internalID: -254107660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 259
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6900f8b99e4334a9a561cd51a8524b
+      internalID: -1130453620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_6
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 259
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01829cba3bdcbe043b53be89cf565bf7
+      internalID: -71328168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 259
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9277cad9ae8542b2792deb8a33364
+      internalID: 2029096428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_8
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 259
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40779d42c72e614e811fc85f97c5799
+      internalID: -877161352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Normal_Body_LR_9
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 259
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 918e0f43231b25d489e8c28ad902fbb4
+      internalID: -716460182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_ItemPickUp
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 133
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff5c094883ba854882fe153f5d8b6bc
+      internalID: -5505386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Die_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 72
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a2a7d2b1b9b2439d7a28129620e63
+      internalID: 1707484671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Hit
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 74
+        width: 28
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88659d626c9535d478ad0ff79b64232d
+      internalID: 2073105572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characters_Isaac_Die_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 68
+        width: 36
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ced949bcc68ebb4280a090710f7bc6c
+      internalID: -2078980999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Characters_Isaac_Die_0: 1707484671
+      Characters_Isaac_Die_1: -2078980999
+      Characters_Isaac_Hit: 2073105572
+      Characters_Isaac_ItemPickUp: -5505386
+      Characters_Isaac_Normal_0: 1188835440
+      Characters_Isaac_Normal_12: 201423543
+      Characters_Isaac_Normal_2: -1211183768
+      Characters_Isaac_Normal_23: -862220834
+      Characters_Isaac_Normal_3: 520506052
+      Characters_Isaac_Normal_34: 1812249546
+      Characters_Isaac_Normal_35: 908597206
+      Characters_Isaac_Normal_36: 1976425604
+      Characters_Isaac_Normal_37: 405181434
+      Characters_Isaac_Normal_38: -70203736
+      Characters_Isaac_Normal_39: 1817978777
+      Characters_Isaac_Normal_40: 1977391675
+      Characters_Isaac_Normal_41: -1264452842
+      Characters_Isaac_Normal_42: 322759571
+      Characters_Isaac_Normal_43: -60156912
+      Characters_Isaac_Normal_44: -1063861280
+      Characters_Isaac_Normal_45: -1303851391
+      Characters_Isaac_Normal_46: 1449729173
+      Characters_Isaac_Normal_47: 1651267947
+      Characters_Isaac_Normal_48: 483433954
+      Characters_Isaac_Normal_49: -38726622
+      Characters_Isaac_Normal_50: -1272860152
+      Characters_Isaac_Normal_51: -1320061632
+      Characters_Isaac_Normal_52: -2094220822
+      Characters_Isaac_Normal_53: -1269878883
+      Characters_Isaac_Normal_54: 1116741211
+      Characters_Isaac_Normal_55: 277156632
+      Characters_Isaac_Normal_56: 1517689739
+      Characters_Isaac_Normal_57: 1806949007
+      Characters_Isaac_Normal_58: 74463302
+      Characters_Isaac_Normal_60: -2023550179
+      Characters_Isaac_Normal_64: -1281707732
+      Characters_Isaac_Normal_65: 1557935055
+      Characters_Isaac_Normal_66: 821808401
+      Characters_Isaac_Normal_67: -1348383837
+      Characters_Isaac_Normal_68: -1033765981
+      Characters_Isaac_Normal_69: -2091367807
+      Characters_Isaac_Normal_70: -1095390845
+      Characters_Isaac_Normal_71: 1596396079
+      Characters_Isaac_Normal_72: -1676144156
+      Characters_Isaac_Normal_73: 1348154362
+      Characters_Isaac_Normal_74: 1443763596
+      Characters_Isaac_Normal_75: -889334678
+      Characters_Isaac_Normal_76: -585858459
+      Characters_Isaac_Normal_77: -1994055279
+      Characters_Isaac_Normal_78: 1801153459
+      Characters_Isaac_Normal_Body_LR_0: -1506902137
+      Characters_Isaac_Normal_Body_LR_1: -1042172630
+      Characters_Isaac_Normal_Body_LR_2: -705789537
+      Characters_Isaac_Normal_Body_LR_3: -1084498099
+      Characters_Isaac_Normal_Body_LR_4: -254107660
+      Characters_Isaac_Normal_Body_LR_5: -1130453620
+      Characters_Isaac_Normal_Body_LR_6: -71328168
+      Characters_Isaac_Normal_Body_LR_7: 2029096428
+      Characters_Isaac_Normal_Body_LR_8: -877161352
+      Characters_Isaac_Normal_Body_LR_9: -716460182
+      Characters_Isaac_Normal_Body_UD_0: 566364099
+      Characters_Isaac_Normal_Body_UD_1: 802023022
+      Characters_Isaac_Normal_Body_UD_2: -2125102218
+      Characters_Isaac_Normal_Body_UD_3: 1174143237
+      Characters_Isaac_Normal_Body_UD_4: 1661858170
+      Characters_Isaac_Normal_Body_UD_5: 969393482
+      Characters_Isaac_Normal_Body_UD_6: 613012081
+      Characters_Isaac_Normal_Body_UD_7: -1078213802
+      Characters_Isaac_Normal_Body_UD_8: 702445388
+      Characters_Isaac_Normal_Body_UD_9: 967729763
+      Characters_Isaac_Normal_Head_D_0: -1375227446
+      Characters_Isaac_Normal_Head_D_1: -1669588166
+      Characters_Isaac_Normal_Head_L_0: 1793304236
+      Characters_Isaac_Normal_Head_L_1: -1616227402
+      Characters_Isaac_Normal_Head_R_0: -1390063012
+      Characters_Isaac_Normal_Head_R_1: 661099265
+      Characters_Isaac_Normal_Head_U_0: 1555537288
+      Characters_Isaac_Normal_Head_U_1: -514621494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
