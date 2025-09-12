@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 
@@ -8,12 +9,16 @@ public class PickUpItem_Bomb : PickUpItem_Ctrl
     public PickUpItem_BombMesh BombMesh;
     bool IsExplosion = true;
 
+    public AudioClip[] Explosions_Audio = new AudioClip[3];
+
 
     public override void Awake()
     {
         ItemType = EPickUpItemType.Bomb;
         if (Count <= -1)
             Count = 1;
+
+        BombMesh.Onwer = this;
     }
 
 

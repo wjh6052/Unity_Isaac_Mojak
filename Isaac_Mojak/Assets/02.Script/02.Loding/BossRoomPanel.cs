@@ -9,6 +9,7 @@ public class BossRoomPanel : LoadingPanel
     public Image Boss_Image;
     public Image BossName_Image;
 
+    public AudioClip InBossRoom_Audio;
 
     private void Update()
     {
@@ -26,5 +27,10 @@ public class BossRoomPanel : LoadingPanel
         Time.timeScale = 1;
 
         base.AE_EndChangeScenes();
+    }
+
+    void AE_InBossRoomSound()
+    {
+        Mgr_Sound.Inst.PlaySound(this.gameObject, InBossRoom_Audio);
     }
 }

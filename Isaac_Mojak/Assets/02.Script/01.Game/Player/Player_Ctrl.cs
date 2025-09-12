@@ -58,6 +58,11 @@ public class Player_Ctrl : MonoBehaviour, IDamage
     #endregion
 
 
+    #region »ç¿îµå
+    public AudioClip[] Plaeyr_Hit_Audio = new AudioClip[3];
+    public AudioClip[] Player_Die_Audio = new AudioClip[3];
+    #endregion
+
 
     public PlayerMesh_Ctrl Mesh;
     public Rigidbody2D rb;
@@ -288,6 +293,9 @@ public class Player_Ctrl : MonoBehaviour, IDamage
     void PlayerHit()
     {
         IsInvincible = true;
+
+        Mgr_Sound.Inst.PlaySound(this.gameObject, Plaeyr_Hit_Audio[Random.Range(0, Plaeyr_Hit_Audio.Length)]);
+
         StartCoroutine(Co_AnimHit());
     }
 
@@ -305,6 +313,8 @@ public class Player_Ctrl : MonoBehaviour, IDamage
     {
         IsInvincible = true;
         IsPlayerDie = true;
+
+        Mgr_Sound.Inst.PlaySound(this.gameObject, Player_Die_Audio[Random.Range(0, Player_Die_Audio.Length)]);
 
         Mesh.AnimDie();
     }

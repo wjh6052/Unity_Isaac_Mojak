@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Tile_Rock : MonoBehaviour, IDamage
 {
+    public AudioClip RockEnd_Audio;
+
     public void TakeDamage(float inDamage, EDamageType inDamageType)
     {
         // 폭발이 아니라면 리턴
         if (inDamageType != EDamageType.Bomb) return;
 
-
+        Mgr_Sound.Inst.PlaySound(this.gameObject, RockEnd_Audio);
         Destroy(this.gameObject);
     }
 

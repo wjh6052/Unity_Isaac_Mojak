@@ -48,6 +48,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 933a686fd85d1b74994720abaa4170a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TearsStart_Audio:
+  - {fileID: 8300000, guid: 8fde3bf2f423eea45a8981e93abf4ca0, type: 3}
+  - {fileID: 8300000, guid: be87c3d4512c3034ca75ff5674214fa1, type: 3}
+  TearsEnd_Audio:
+  - {fileID: 8300000, guid: c728f00d8a7bd1841b568e1d9602b73e, type: 3}
+  - {fileID: 8300000, guid: 7c84fdb8e9ba8b641aaf612bd976c9ab, type: 3}
+  - {fileID: 8300000, guid: 52ee02366bbae0b47915fd8dc1b937be, type: 3}
 --- !u!212 &6918094259576805480
 SpriteRenderer:
   m_ObjectHideFlags: 0

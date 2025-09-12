@@ -134,6 +134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemType: 3
   Count: 1
+  ItemPickUp_Audio: {fileID: 8300000, guid: a860ea6e022dd284f8dc51d73dd8d2c7, type: 3}
 --- !u!50 &8062882539063102084
 Rigidbody2D:
   serializedVersion: 4

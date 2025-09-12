@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Monster_Fly : Monster_Ctrl
 {
-    
+    [Header("Sound")]
+    public AudioClip FlyLoop_Audio;
 
     protected override void Awake()
     {
@@ -12,6 +13,12 @@ public class Monster_Fly : Monster_Ctrl
 
         if (Agent)
             Agent.enabled = false;
+    }
+
+    protected override void Start()
+    {
+        base.Start();
+        Mgr_Sound.Inst.PlaySound(this.gameObject, FlyLoop_Audio, true);
     }
 
     protected override void MonsterMove()

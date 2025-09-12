@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aaeed893fce0694fb0c70d1bb85d888, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RockEnd_Audio: {fileID: 8300000, guid: bb62e3cb9a35dc248b0eaf645d381385, type: 3}
 --- !u!212 &5907034581834166262
 SpriteRenderer:
   m_ObjectHideFlags: 0

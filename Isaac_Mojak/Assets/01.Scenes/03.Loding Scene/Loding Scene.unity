@@ -977,6 +977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Boss_Image: {fileID: 1909417313}
   BossName_Image: {fileID: 1157683432}
+  InBossRoom_Audio: {fileID: 8300000, guid: 965ab7dad2924094da0ea0ba0c489ff3, type: 3}
 --- !u!1 &1909417311
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,8 @@ public class PickUpItem_BombMesh : MonoBehaviour
 {
     Animator Anim;
 
+    public PickUpItem_Bomb Onwer;
+
     private void Awake()
     {
         Anim = GetComponent<Animator>();
@@ -49,6 +51,8 @@ public class PickUpItem_BombMesh : MonoBehaviour
     // 폭탄이 터질때 애니메이션에서 이벤트로 호출
     public void Explosion()
     {
+        Mgr_Sound.Inst.PlaySound(this.gameObject, Onwer.Explosions_Audio[Random.Range(0, Onwer.Explosions_Audio.Length)]);
+
         Collider2D  col = GetComponent<Collider2D>();
 
         ContactFilter2D filter = new ContactFilter2D();

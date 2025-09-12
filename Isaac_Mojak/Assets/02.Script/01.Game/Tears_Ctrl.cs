@@ -13,6 +13,9 @@ public class Tears_Ctrl : MonoBehaviour
 
     //float FallSpeed = 1f;      // 떨어질 때 y속도 (높을수록 빠르게 떨어짐)
 
+    public AudioClip[] TearsStart_Audio = new AudioClip[2];
+    public AudioClip[] TearsEnd_Audio = new AudioClip[3];
+
     bool IsPlayer = false;
     bool IsEnd = false;
 
@@ -38,6 +41,8 @@ public class Tears_Ctrl : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = Direction * Speed;
+
+        Mgr_Sound.Inst.PlaySound(this.gameObject, TearsStart_Audio[Random.Range(0, TearsStart_Audio.Length)]);
     }
 
 
@@ -93,9 +98,13 @@ public class Tears_Ctrl : MonoBehaviour
     // 애니메이션
     void EndTrigger()
     {
+        if (IsEnd) return;
+
         IsEnd = true;
         rb.bodyType = RigidbodyType2D.Static;
         Anim = GetComponent<Animator>();
+
+        Mgr_Sound.Inst.PlaySound(this.gameObject, TearsEnd_Audio[Random.Range(0, TearsEnd_Audio.Length)]);
 
         Anim.SetTrigger("End");
     }

@@ -79,6 +79,11 @@ public enum EDamageType // 데미지 타입
 
 }
 
+public enum EOptionType
+{
+    Sound,
+    End
+}
 
 // 데미지 인터페이스
 public interface IDamage
@@ -95,7 +100,13 @@ public class GlobalValue
 
     public static bool IsCanPlay = true;
 
+    public static float SoundVolume = 1.0f; //(0 ~ 1)
 
-   
+
+    public static void LoadData()
+    {
+        SoundVolume = PlayerPrefs.GetFloat("SoundVolume", 1f);
+    }
+
 
 }

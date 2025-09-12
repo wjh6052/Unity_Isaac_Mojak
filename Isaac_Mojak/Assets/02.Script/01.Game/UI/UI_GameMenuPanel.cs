@@ -72,7 +72,9 @@ public class UI_GameMenuPanel : MonoBehaviour
         {
             case 0: // 옵션설정
                 {
-
+                    this.gameObject.SetActive(false);
+                    Mgr_GameUI.Inst.GameUiType = EGameUiType.OptionPanel;
+                    Mgr_GameUI.Inst.OptionPanel.OnOptionPanel(true);
                     break;
                 }
             case 1: // 게임으로 돌아가기
@@ -82,6 +84,7 @@ public class UI_GameMenuPanel : MonoBehaviour
                 }
             case 2: // 메뉴로 이동
                 {
+                    Time.timeScale = 1;
                     Mgr_Loading.Inst.StartChangeScenes(ELoadingType.ToMenu);
                     break;
                 }

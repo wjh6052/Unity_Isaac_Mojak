@@ -137,6 +137,7 @@ MonoBehaviour:
   ItemType: 0
   ItemImage: {fileID: 7511911490772739504}
   slider: {fileID: 0}
+  ItemPickUp_Audio: {fileID: 8300000, guid: 0c3a0179c0599624aa4ec923c89cece4, type: 3}
 --- !u!212 &2730011577996767524
 SpriteRenderer:
   m_ObjectHideFlags: 0

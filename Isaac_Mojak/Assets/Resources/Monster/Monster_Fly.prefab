@@ -49,12 +49,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff463b7d1c0c9be42b220b96f37dd178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxHp: 6
   Hp: 6
   Speed: 0.5
   ArriveDist: 0.03
   HitDelay: 0.5
   IsHit: 0
   IsDie: 0
+  IsBoss: 0
+  FlyLoop_Audio: {fileID: 8300000, guid: 926b55fe3cb907c4792bfe47c5103199, type: 3}
 --- !u!212 &1009178673154068714
 SpriteRenderer:
   m_ObjectHideFlags: 0

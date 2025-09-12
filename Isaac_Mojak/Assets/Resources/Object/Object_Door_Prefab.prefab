@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 6966549051122260291}
   m_Layer: 0
   m_Name: Object_Door_Prefab
-  m_TagString: Untagged
+  m_TagString: TearsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,7 +495,7 @@ GameObject:
   - component: {fileID: 6337745350429156892}
   m_Layer: 0
   m_Name: Wall_Collider
-  m_TagString: Untagged
+  m_TagString: TearsWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

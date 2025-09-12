@@ -100,8 +100,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5273a4314f938fc4fb9fe7408deae7d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hp: 20
-  MaxHp: 20
+  Hp: 1
+  MaxHp: 3
   Damage: 5
   Range: 2
   Speed: 1.5
@@ -117,6 +117,14 @@ MonoBehaviour:
   StopThreshold: 0.05
   Tears_Prefab: {fileID: 0}
   Bomb_Prefab: {fileID: 0}
+  Plaeyr_Hit_Audio:
+  - {fileID: 8300000, guid: 819b7d549e4864c4681a7d417e169cbe, type: 3}
+  - {fileID: 8300000, guid: d037f7b9dc392c340985253f99774b8a, type: 3}
+  - {fileID: 8300000, guid: f0f1f933467fa7a49b44ebfe83799ce6, type: 3}
+  Player_Die_Audio:
+  - {fileID: 8300000, guid: 9b30329eaaeb4d649ba5b785a045ee51, type: 3}
+  - {fileID: 8300000, guid: 73712843dacf4dd42a05e5bbf29f1c6c, type: 3}
+  - {fileID: 8300000, guid: bbe65c677b0f96645b2de6ce26f7479c, type: 3}
   Mesh: {fileID: 23091500575249921}
   rb: {fileID: 0}
 --- !u!50 &5942372783819424154

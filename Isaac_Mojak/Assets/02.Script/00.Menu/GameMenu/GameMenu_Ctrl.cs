@@ -70,7 +70,7 @@ public class GameMenu_Ctrl : MonoBehaviour
                 }
             case EGameMenuType.Options: // ¿É¼Ç
                 {
-
+                    Mgr_Menu.Inst.SetMenu(EMenuType.OptionMenu);
                     break;
                 }
         }

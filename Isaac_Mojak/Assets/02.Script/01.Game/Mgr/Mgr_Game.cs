@@ -48,7 +48,7 @@ public class Mgr_Game : MonoBehaviour
             // else
             //     Time.timeScale = 0f;
 
-            Player.TakeDamage(1);
+            //Player.TakeDamage(1);
 
         }
     }
@@ -64,22 +64,22 @@ public class Mgr_Game : MonoBehaviour
     // Esc클릭시 Mgr_Input에서 호출
     public void ClickEsc()
     {
-        switch(Mgr_GameUI.Inst.GameUiType)
+        switch (Mgr_GameUI.Inst.GameUiType)
         {
             case EGameUiType.Playing:
                 {
                     Mgr_GameUI.Inst.SetGameMenu(true);
                     break;
                 }
-            case EGameUiType.GameMenu:
-                {
-                    Mgr_GameUI.Inst.SetGameMenu(false);
-                    break;
-                }
             case EGameUiType.DieMenu:
                 {
                     Time.timeScale = 1;
                     Mgr_Loading.Inst.StartChangeScenes(ELoadingType.ToMenu);
+                    break;
+                }
+            default:
+                {
+                    Mgr_GameUI.Inst.SetGameMenu(false);
                     break;
                 }
         }
@@ -93,17 +93,19 @@ public class Mgr_Game : MonoBehaviour
                 {
                     break;
                 }
-            case EGameUiType.GameMenu:
-                {
-                    Mgr_GameUI.Inst.ChoiceMenu();
-                    break;
-                }
             case EGameUiType.DieMenu:
                 {
                     Time.timeScale = 1;
                     Mgr_Loading.Inst.StartChangeScenes(ELoadingType.ReGame);
                     break;
                 }
+
+            default:
+                {
+                    Mgr_GameUI.Inst.ChoiceMenu();
+                    break;
+                }
+                
         }
     }
 
@@ -368,9 +370,8 @@ public class Mgr_Game : MonoBehaviour
 
 
         Invoke(nameof(StartRoom), 0.5f);
-
-        
     }
+
 
     // 맵 세팅이 끝난 후 게임을 시작하기 위해 호출되는 함수
     void StartRoom()

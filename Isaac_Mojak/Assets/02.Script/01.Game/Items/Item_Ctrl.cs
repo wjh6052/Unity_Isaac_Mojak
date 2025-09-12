@@ -17,6 +17,8 @@ public class Item_Ctrl : MonoBehaviour
     bool isPlayerPushing = false;
     public SpringJoint2D slider;
 
+    public AudioClip ItemPickUp_Audio;
+
     Room_Ctrl Room_Onwer;
 
     void Awake()
@@ -49,6 +51,7 @@ public class Item_Ctrl : MonoBehaviour
         if (isPlayerPushing && force.magnitude > 200f)
         {
             IsItem = false;
+            Mgr_Sound.Inst.PlaySound(this.gameObject, ItemPickUp_Audio);
             Mgr_Game.Inst.Player.AddItem(ItemType);
             ItemImage.gameObject.SetActive(false);
         }

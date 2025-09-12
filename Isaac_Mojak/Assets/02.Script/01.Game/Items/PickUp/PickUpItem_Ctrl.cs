@@ -8,14 +8,13 @@ public class PickUpItem_Ctrl : MonoBehaviour
     public EPickUpItemType ItemType;
     public int Count = -1;
 
+    public AudioClip ItemPickUp_Audio;
 
 
     public virtual void Awake()
     {
         this.gameObject.tag = "Item";
         this.gameObject.layer = LayerMask.NameToLayer("Item");
-
-
     }
 
     public virtual void SpawnItem(Vector2 inspawnPos)
@@ -44,6 +43,7 @@ public class PickUpItem_Ctrl : MonoBehaviour
                 if(Mgr_Game.Inst.Player.CanHeal()) // 힐을 먹을수 있는지 확인
                 {
                     // 먹었을때 애니메이션
+                    Mgr_Sound.Inst.PlaySound(this.gameObject, ItemPickUp_Audio);
                     StartPickUp();
 
                     // 아이템 먹기 작업

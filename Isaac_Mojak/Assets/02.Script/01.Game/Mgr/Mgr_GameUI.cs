@@ -11,7 +11,8 @@ public enum EGameUiType
 {
     Playing,
     GameMenu,
-    DieMenu
+    DieMenu,
+    OptionPanel
 }
 
 
@@ -40,6 +41,9 @@ public class Mgr_GameUI : MonoBehaviour
     public Image BossHpBar_Image;
     public bool IsBossRoom = false;
 
+    [Header("옵션 패널")]
+    public UI_OptionPanel OptionPanel;
+
     [Header("UI 상태값")]
     public EGameUiType GameUiType = EGameUiType.Playing;
 
@@ -53,6 +57,7 @@ public class Mgr_GameUI : MonoBehaviour
         GameMenuPanel.gameObject.SetActive(false);
         PlayerDiePanel.gameObject.SetActive(false);
         BossHpBarPanel.gameObject.SetActive(false);
+        OptionPanel.gameObject.SetActive(false);
 
         // 채력
         {
@@ -139,8 +144,6 @@ public class Mgr_GameUI : MonoBehaviour
     #region 게임중 메뉴
     public void SetChoice(Vector2 val)
     {
-        if (val.y == 0) return;
-
         bool isUp = (val.y > 0);
         switch (GameUiType)
         {
@@ -154,6 +157,12 @@ public class Mgr_GameUI : MonoBehaviour
 
                     break;
                 }
+            case EGameUiType.OptionPanel:
+                {
+                    OptionPanel.SetChoice(val);
+                    break;
+                }
+
             default:
                 break;
         }
@@ -175,6 +184,11 @@ public class Mgr_GameUI : MonoBehaviour
 
                     break;
                 }
+            case EGameUiType.OptionPanel:
+                {
+                    OptionPanel.ChoiceMenu();
+                    break;
+                }
             default:
                 break;
         }
@@ -183,11 +197,28 @@ public class Mgr_GameUI : MonoBehaviour
     // 게임 중단 메뉴
     public void SetGameMenu(bool isOn)
     {
-        GlobalValue.IsCanPlay = !isOn;
+        switch (GameUiType)
+        {
+            case EGameUiType.OptionPanel:
+                {
+                    OptionPanel.gameObject.SetActive(false);
+                    GameUiType = EGameUiType.GameMenu;
+                    GameMenuPanel.gameObject.SetActive(true);
+                    break;
+                }
+            default:
+                {
+                    GlobalValue.IsCanPlay = !isOn;
 
-        GameUiType = isOn ? EGameUiType.GameMenu : EGameUiType.Playing;
+                    GameUiType = isOn ? EGameUiType.GameMenu : EGameUiType.Playing;
 
-        GameMenuPanel.SetGameMenuPanel(isOn);
+                    GameMenuPanel.SetGameMenuPanel(isOn);
+                    break;
+                }
+        }
+
+
+        
     }
 
 

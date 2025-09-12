@@ -124,6 +124,7 @@ public class Room_Ctrl : MonoBehaviour
     // 몬스터 스크립트에서 호출
     public void AddMonster(Monster_Ctrl inMonster)
     {
+        Debug.Log(inMonster.name);
         if(inMonster.IsBoss)
         {
             BossCtrl = (Boss_Ctrl)inMonster;

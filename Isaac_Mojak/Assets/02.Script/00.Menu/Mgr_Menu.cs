@@ -8,7 +8,8 @@ public enum EMenuType
     TitleMenu,
     SaveMenu,
     GameMenu,
-    CharacterMenu
+    CharacterMenu,
+    OptionMenu
 }
 
 public class Mgr_Menu : MonoBehaviour
@@ -18,12 +19,14 @@ public class Mgr_Menu : MonoBehaviour
     public Transform SaveMenu_Transform;
     public Transform GameMenu_Transform;
     public Transform CharacterMenu_Transform;
+    public Transform OptionMenu_Transform;
 
 
     [Header("Menu_Ctrl")]
     public SaveMenu_Ctrl SaveMenu;
     public GameMenu_Ctrl GameMenu;
     public CharacterMenu_Ctrl CharacterMenu;
+    public OptionMenu_Ctrl OptionMenu;
 
     [Header("MenuType")]
     public EMenuType NowMenuType = EMenuType.TitleMenu;
@@ -31,6 +34,11 @@ public class Mgr_Menu : MonoBehaviour
 
     [Header("Data")]
     public int SaveIndex = 0;
+
+
+    [Header("Sound")]
+    public AudioClip MenuOst_Audio;
+    public AudioClip PageTurn_Audio;
 
 
     public static Mgr_Menu Inst;
@@ -43,7 +51,9 @@ public class Mgr_Menu : MonoBehaviour
 
     private void Start()
     {
-        if(!SceneManager.GetSceneByName("Loding Scene").isLoaded)
+        Mgr_Sound.Inst.PlaySound(this.gameObject, MenuOst_Audio);
+
+        if (!SceneManager.GetSceneByName("Loding Scene").isLoaded)
             SceneManager.LoadScene("Loding Scene", LoadSceneMode.Additive);
     }
 
@@ -57,26 +67,37 @@ public class Mgr_Menu : MonoBehaviour
             case EMenuType.TitleMenu:
             {
                 Mgr_Camera.Inst.MoveCamera(TitleMenu_Transform);
+                Mgr_Sound.Inst.PlaySound(this.gameObject, PageTurn_Audio);
                 break;
             }
 
             case EMenuType.SaveMenu:
             {
                 Mgr_Camera.Inst.MoveCamera(SaveMenu_Transform);
+                Mgr_Sound.Inst.PlaySound(this.gameObject, PageTurn_Audio);
                 break;
             }
 
             case EMenuType.GameMenu:
             {
                 Mgr_Camera.Inst.MoveCamera(GameMenu_Transform);
+                Mgr_Sound.Inst.PlaySound(this.gameObject, PageTurn_Audio);
                 break;
             }
 
             case EMenuType.CharacterMenu:
-                {
-                    Mgr_Camera.Inst.MoveCamera(CharacterMenu_Transform);
-                    break;
-                }
+            {
+                Mgr_Camera.Inst.MoveCamera(CharacterMenu_Transform);
+                Mgr_Sound.Inst.PlaySound(this.gameObject, PageTurn_Audio);
+                break;
+            }
+
+            case EMenuType.OptionMenu:
+            {
+                Mgr_Camera.Inst.MoveCamera(OptionMenu_Transform);
+                Mgr_Sound.Inst.PlaySound(this.gameObject, PageTurn_Audio);
+                break;
+            }
 
             default:
                 break;
@@ -98,6 +119,12 @@ public class Mgr_Menu : MonoBehaviour
             case EMenuType.GameMenu:
                 {
                     GameMenu.MoveSaveMenu(value.y);
+                    break;
+                }
+
+            case EMenuType.OptionMenu:
+                {
+                    OptionMenu.MenuMove(value);
                     break;
                 }
 
@@ -138,6 +165,12 @@ public class Mgr_Menu : MonoBehaviour
                     CharacterMenu.ChoiceMenu(); // 게임 시작
                     break;
                 }
+
+            case EMenuType.OptionMenu:
+                {
+                    OptionMenu.ChoiceMenu();
+                    break;
+                }
         }
     }
 
@@ -169,7 +202,13 @@ public class Mgr_Menu : MonoBehaviour
                     SetMenu(EMenuType.GameMenu);
                     break;
                 }
+            case EMenuType.OptionMenu:
+                {
+                    SetMenu(EMenuType.GameMenu);
+                    break;
+                }
         }
+
     }
 
 }

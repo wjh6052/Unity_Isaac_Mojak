@@ -50,6 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemType: 2
   Count: 1
+  ItemPickUp_Audio: {fileID: 8300000, guid: d03850e8c7610024c8b0880e48ae419c, type: 3}
 --- !u!95 &1776199102154514772
 Animator:
   serializedVersion: 5
