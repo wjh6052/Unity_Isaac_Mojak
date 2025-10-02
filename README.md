@@ -154,5 +154,5 @@ volume은 전체 셋팅인 GlobalValue.SoundVolume에서 볼륨을 조절하여 
 
 ## 포트폴리오 관련 링크
 
-[포트폴리오 영상 보기(제작중)]
+[포트폴리오 영상 보기(제작중)]  
 [게임 데모 다운로드 (구글드라이브)](https://drive.google.com/drive/folders/1w1hEu9wXIA5q2DQCFaIyyY16X1M6iEuQ)  
